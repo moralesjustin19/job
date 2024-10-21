@@ -1,0 +1,104 @@
+header {  
+height: 50px;
+width: 1500px ;
+background-color:red;
+display: flex;
+align-items: center;
+justify-content: space-around;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    width: 1500px;
+    height: 50px;
+    background-color: red;
+}
+
+.searchbar {
+    border-radius: 20px;
+    height: 30px;
+    width: 300px;
+}
+
+.BloomPetals {
+    font-family: "Pacifico";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+}
+  
+.texteprincipal {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.sectionimages1 {
+    display: flex;
+    justify-content: space-between;
+    outline-style: solid;
+    outline-width: 2px;
+    padding: 50px;
+    margin-top: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-offset: 5px;
+}
+
+.sectiontexte {
+    display: flex;
+    flex-direction: column;
+}
+
+.titres {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.textefin {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Pacifico",cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: yellow;
+}
+
+.sectionimages2 {
+    display: flex;
+    justify-content: space-between;
+    outline-style: solid;
+    outline-width: 2px;
+    padding: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 50px;
+    margin-top: 30px;
+    background-color: red;
+}
